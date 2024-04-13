@@ -2,7 +2,9 @@
 
 *{
     font-family: Montserrat;
+
 }
+
 
 form {
     width: 500px;
@@ -14,6 +16,12 @@ input, textarea{
     font-weight: normal;
     font-family: sans-serif;
 
+}
+
+textarea{
+    background-color: transparent;
+    margin-top: 10px; /* Ajusta o espaçamento superior */
+ 
 }
 
 input:hover, textarea:hover{
@@ -32,4 +40,43 @@ fieldset{
     border-color: #cecece;
     margin: 20px;
     border-radius: 20px;
+}
+
+fieldset#sexo{
+    width: 130px;
+
+}
+
+fieldset#usuario{
+    background: url(/img/adicionar-usuario.png) no-repeat ;
+    background-size: 10% ;
+    background-position: right bottom; /* Posiciona a imagem no canto inferior direito */
+    background-origin: content-box; /* Garante que a imagem permaneça dentro do conteúdo do fieldset */   
+}
+
+fieldset#endereco{
+    background: url(img/localizacao.png) no-repeat ;
+    background-size: 10% ;
+    background-position: right bottom; /* Posiciona a imagem no canto inferior direito */
+    background-origin: content-box; /* Garante que a imagem permaneça dentro do conteúdo do fieldset */   
+}
+
+fieldset#mensagem{
+    background: url(img/bate-papo.png) no-repeat ;
+    background-size: 10% ;
+    background-position: right bottom; /* Posiciona a imagem no canto inferior direito */
+    background-origin: content-box; /* Garante que a imagem permaneça dentro do conteúdo do fieldset */   
+}
+
+fieldset#pedido{
+    background: url(img/oculos.jpg) no-repeat ;
+    background-size: 10% ;
+    background-position: right bottom; /* Posiciona a imagem no canto inferior direito */
+    background-origin: content-box; /* Garante que a imagem permaneça dentro do conteúdo do fieldset */   
+}
+
+#botao{
+    width: 150px; /* Defina a largura desejada */
+    height: 50px; /* Defina a altura desejada */
+
 }
