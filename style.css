@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea{
+    font-size: 13pt;
+    font-weight: normal;
+    font-family: sans-serif;
+
+}
+
+input:hover, textarea:hover{
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+legend{
+    font-size: 15pt;
+    font-weight: bolder;
+    color: black;
+    font-family: sans-serif;
+}
+
+fieldset{
+    border-color: #cecece;
+    margin: 20px;
+    border-radius: 20px;
+}
